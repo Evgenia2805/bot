@@ -30,7 +30,6 @@ but_non = InlineKeyboardButton(
     callback_data='non'
 )
 
-# Создаем объект инлайн-клавиатуры
 kb_3 = InlineKeyboardMarkup(
     inline_keyboard=[[but_oui],
                      [but_non]])
